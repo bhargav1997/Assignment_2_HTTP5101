@@ -10,6 +10,14 @@ namespace Assignment2.Controllers
     public class Menu : Controller
     {
 
+        /// <summary>
+        /// Calculates the total calories of a meal based on the user's choices of burger, drink, side, and dessert.
+        /// </summary>
+        /// <param name="burger">Integer representing the index burger choice</param>
+        /// <param name="drink">Integer representing the index drink choice</param>
+        /// <param name="side">Integer representing the index side choice</param>
+        /// <param name="dessert">Integer representing the index dessert choice</param>
+        /// <returns>A string message representing the total calorie count of the meal.</returns>
         // GET: /api/J1/Menu/{burger}/{drink}/{side}/{dessert}
         [HttpGet]
         [Route("/api/J1/Menu/{burger}/{drink}/{side}/{dessert}")]
