@@ -29,11 +29,9 @@ namespace Assignment2.Controllers
             int[] sideCalories = { 100, 57, 70, 0 };
             int[] dessertCalories = { 167, 266, 75, 0 };
 
-            // Calculate total calories based on user's choice
             int totalCalories = burgerCalories[burger - 1] + drinkCalories[drink - 1] + sideCalories[side - 1] + dessertCalories[dessert - 1];
 
-            // Return total calories as JSON response
-            return $"Your total calorie count is {totalCalories}";
+            return "Your total calorie count is "+ totalCalories;
         }
     }
 }
