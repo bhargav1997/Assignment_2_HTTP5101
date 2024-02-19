@@ -23,6 +23,7 @@ namespace Assignment2.Controllers
         {
             int count = 0;
 
+            // Counting the number of ways to roll a sum of 10 with two dice (m and n)
             for (int i = 1; i <= m; i++)
             {
                 if (10 - i >= 1 && 10 - i <= n)

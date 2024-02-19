@@ -23,7 +23,7 @@ namespace Assignment2.Controllers
         [Route("/api/J1/Menu/{burger}/{drink}/{side}/{dessert}")]
         public string CalculateTotalCalories(int burger, int drink, int side, int dessert)
         {
-            // set calorie values for each menu item
+            // All food calory count, incrementing way
             int[] burgerCalories = { 461, 431, 420, 0 };
             int[] drinkCalories = { 130, 160, 118, 0 };
             int[] sideCalories = { 100, 57, 70, 0 };
