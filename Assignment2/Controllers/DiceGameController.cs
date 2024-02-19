@@ -11,7 +11,8 @@ namespace Assignment2.Controllers
     {
 
         /// <summary>
-        /// Counts the number of ways to roll a sum of 10 with two dice, where the first die has m sides and the second die has n sides.
+        ///  Counts the number of ways to roll a sum of 10 with two dice,
+        ///  where the first die has m sides and the second die has n sides.
         /// </summary>
         /// <param name="m">The number of sides on the first die.</param>
         /// <param name="n">The number of sides on the second die.</param>
@@ -30,7 +31,7 @@ namespace Assignment2.Controllers
                 }
             }
 
-            return "Number of ways to roll the value of 10:" + count;
+            return "There are "+ count + " total ways to get the sum 10.";
         }
     }
 }
