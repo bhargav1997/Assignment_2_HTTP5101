@@ -18,6 +18,8 @@ namespace Assignment2.Controllers
         /// <param name="side">Integer representing the index side choice</param>
         /// <param name="dessert">Integer representing the index dessert choice</param>
         /// <returns>A string message representing the total calorie count of the meal.</returns>
+        /// <example>GET /api/J1/Menu/4/4/4/4 => Your total calorie count is 0 </example>
+        /// <example>GET /api/J1/Menu/1/2/3/4 => Your total calorie count is 691 </example>
         // GET: /api/J1/Menu/{burger}/{drink}/{side}/{dessert}
         [HttpGet]
         [Route("/api/J1/Menu/{burger}/{drink}/{side}/{dessert}")]
