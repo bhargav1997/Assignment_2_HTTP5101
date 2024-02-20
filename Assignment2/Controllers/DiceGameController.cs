@@ -17,6 +17,8 @@ namespace Assignment2.Controllers
         /// <param name="m">The number of sides on the first die.</param>
         /// <param name="n">The number of sides on the second die.</param>
         /// <returns>A string representing the number of ways to roll a sum of 10.</returns>
+        /// <example>GET /api/J2/DiceGame/6/8 => There are 5 total ways to get the sum 10 </example>
+        /// <example>GET /api/J2/DiceGame/12/4 => There are 4 ways to get the sum 10 </example>
         // GET: /api/J2/DiceGame/{m}/{n}
         [HttpGet("/api/J2/DiceGame/{m}/{n}")]
         public string CountWaysToRollTen(int m, int n)
