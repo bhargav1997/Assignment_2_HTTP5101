@@ -38,8 +38,12 @@ The input will be two positive numbers t1 and t2, with 0 < t2 < t1 < 10000.
 Output Specification
 
 The output will be the length of the sumac sequence given by the starting numbers t1 and t2.
+
 **Sample Input**
+
 120
 71
+
 **Output for Sample Input**
+
 5
