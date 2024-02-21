@@ -17,7 +17,8 @@ namespace Assignment2.Controllers
         /// <param name="t1">The first number of the sequence.</param>
         /// <param name="t2">The second number of the sequence.</param>
         /// <returns>The length of the Sumac Sequence.</returns>
-        /// <example> GET: /api/J3/sumacsequence/120/71 ==> 5</example>
+        /// <example> GET: /api/J3/sumacsequence/120/71 ==> 5 </example>
+        /// <example> GET: /api/J3/sumacsequence/49/22 ==> 3 </example>
         [HttpGet]
         [Route("/api/J3/sumacsequence/{t1}/{t2}")]
         public int CalculateSequenceLength(int t1, int t2)
@@ -41,3 +42,4 @@ namespace Assignment2.Controllers
     }
 }
 
+    
